@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkgray;
+    background-image: url("./MG logos/jwellery-background.jpg");
+}
+
+.brand-logo{
+    max-width: 70%;
+    padding: 3%;
+}
+
+.promotion{
+    max-height: 40vh;
+    min-width: 90vw;
+    padding: 2%;
+    border-radius: 0 20%;
+}
+
+footer{
+    color: aliceblue;
+    font-size: 1.4rem;
+    z-index: 1;
+    background-color: rgb(207, 155, 23);
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>img{
+    max-height: 20%;
+    max-width: 20%;
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    border: 0.7rem solid rgb(207, 155, 23);
+    width: 15vw;
+    border-radius: 7%;
+    padding: 3% 1%;
+    align-items: center;
+}
+
+.info-img{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 7%;
+    margin-bottom: 7%;
+}
+
+.info-box{
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(126, 144, 144);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: rgb(207, 155, 23);
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+    transition: 20ms;    
+}
+
